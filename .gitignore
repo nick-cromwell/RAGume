@@ -1,0 +1,41 @@
+# Build outputs
+bin/
+obj/
+out/
+dist/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDE / editor
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+**/appsettings.*.json
+
+# Test / coverage
+TestResults/
+coverage/
+
+# Database / local data
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker local files
+/docker/
+
+# OS generated
+Thumbs.db

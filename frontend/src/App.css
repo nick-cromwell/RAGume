@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Lora', Georgia, serif;
+  --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  --color-bg: #1e2440;
+  --color-fg: #f5f7ff;
+  --color-muted: rgba(216, 219, 255, 0.72);
+  --color-accent: #a78bfa;
+  --color-accent-strong: #b39dfc;
+  --color-panel: rgba(255,255,255,0.04);
+  --color-border: rgba(167, 139, 250, 0.18);
+
+  font-family: var(--font-body);
+  line-height: 1.5;
+  font-weight: 400;
+  color: #e2e8f0;
+  background: var(--color-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+}
+
+button,
+textarea,
+input,
+a {
+  font: inherit;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+h1, h2, h3, p {
+  margin-top: 0;
+  color: var(--color-fg);
+}
+
+.nav-link {
+  transition: color 0.15s ease;
+}
+
+.nav-link:hover {
+  color: var(--color-fg) !important;
+}
+
+.hero-button {
+  transition: all 0.18s ease;
+}
+
+.hero-button:hover {
+  transform: translateY(-1px);
+}
+
+.hero-button.primary:hover {
+  box-shadow: 0 0 24px rgba(167, 139, 250, 0.4);
+}
+
+.hero-button.secondary:hover {
+  background: rgba(167, 139, 250, 0.1) !important;
+  border-color: rgba(167, 139, 250, 0.5) !important;
+}
+
+.project-link:hover {
+  background: rgba(167, 139, 250, 0.1) !important;
+  border-color: rgba(167, 139, 250, 0.5) !important;
+}
+
+.prompt-chip:hover {
+  background: rgba(167, 139, 250, 0.18) !important;
+}
+
+.icon-link:hover {
+  border-color: rgba(167, 139, 250, 0.45) !important;
+  color: var(--color-accent) !important;
+}

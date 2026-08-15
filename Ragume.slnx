@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="src/Ragume.Api/Ragume.Api.csproj" />
+  <Project Path="src/Ragume.KernelFactory/Ragume.KernelFactory.csproj" />
+  <Project Path="src/Ragume.Data/Ragume.Data.csproj" />
+  <Project Path="src/Ragume.RagCli/Ragume.RagCli.csproj" />
+  <Project Path="tests/Ragume.Api.Tests/Ragume.Api.Tests.csproj" />
+</Solution>
